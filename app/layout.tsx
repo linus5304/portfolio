@@ -75,6 +75,11 @@ export default function RootLayout({
             href="/feed.json"
             title="JSON Feed"
           />
+          <link
+            rel="stylesheet"
+            type="text/css"
+            href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css"
+          />
         </head>
         <body className="flex flex-col items-center justify-center mx-auto mt-2 mb-20 antialiased lg:mt-8 lg:mb-40">
           <ThemeProvider
