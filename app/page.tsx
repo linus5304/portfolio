@@ -5,6 +5,7 @@ import { ArrowRight } from "lucide-react";
 import { Link } from "next-view-transitions";
 import { ProjectList } from "./projects/project-list";
 import { SkillsList } from "./components/skills/skill-list";
+import ExperienceList from "./components/experiece/experience-list";
 
 export default function Page() {
   return (
@@ -50,6 +51,12 @@ export default function Page() {
         <div>
           <h1 className="mb-6 text-lg font-medium tracking-tight">Skills</h1>
           <SkillsList />
+        </div>
+        <div>
+          <h1 className="mb-6 text-lg font-medium tracking-tight">
+            Experience
+          </h1>
+          <ExperienceList />
         </div>
       </div>
     </section>
