@@ -4,12 +4,13 @@ import { Button, buttonVariants } from "./components/ui/button";
 import { ArrowRight } from "lucide-react";
 import { Link } from "next-view-transitions";
 import { ProjectList } from "./projects/project-list";
+import { SkillsList } from "./components/skills/skill-list";
 
 export default function Page() {
   return (
     <section>
       <div className="flex flex-col gap-6">
-        <div className="flex items-center">
+        <div className="flex items-center gap-6 max-xl:flex-col-reverse">
           <div>
             <h1 className="mb-8 text-lg font-medium tracking-tight">
               Linus Phinehas Suh Bayere – Software Engineer & DevOps Specialist
@@ -42,10 +43,13 @@ export default function Page() {
           </a>
         </div>
         <div>
-          <h1 className="mb-[-2] text-lg font-medium tracking-tight">
-            Projects
-          </h1>
+          <h1 className="text-lg font-medium tracking-tight">Projects</h1>
           <ProjectList />
+        </div>
+
+        <div>
+          <h1 className="mb-6 text-lg font-medium tracking-tight">Skills</h1>
+          <SkillsList />
         </div>
       </div>
     </section>
