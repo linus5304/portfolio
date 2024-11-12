@@ -1,6 +1,6 @@
 import { Link } from "next-view-transitions";
 import { ThemeSwitch } from "./theme-switch";
-import { metaData } from "../config";
+import { Icons } from "./icons";
 
 const navItems = {
   // "/blog": { name: "Blog" },
@@ -14,7 +14,7 @@ export function Navbar() {
       <div className="flex flex-col justify-between md:flex-row md:items-center">
         <div className="flex items-center">
           <Link href="/" className="text-3xl font-semibold tracking-tight">
-            {metaData.title}
+            <Icons.logo className="size-12" />
           </Link>
         </div>
         <div className="flex flex-row items-center gap-4 mt-6 md:mt-0 md:ml-auto">
