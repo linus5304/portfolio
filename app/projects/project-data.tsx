@@ -9,8 +9,9 @@ export const projects: Project[] = [
   {
     title: "Chirpy",
     year: 2023,
-    description: "",
-    url: "https://example.com/",
+    description:
+      "This is a simple app to learn how to web servers in go programming language. The name of the demo application built is Chripy. Chirpy is a social network similar to twitter with basic functionalities.",
+    url: "https://github.com/linus5304/chirpy",
   },
   {
     title: "YC Directory",
