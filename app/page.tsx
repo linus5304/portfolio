@@ -6,6 +6,7 @@ import { Link } from "next-view-transitions";
 import { ProjectList } from "./projects/project-list";
 import { SkillsList } from "./components/skills/skill-list";
 import ExperienceList from "./components/experiece/experience-list";
+import { Button_v2 } from "./components/button-shine";
 
 export default function Page() {
   return (
@@ -27,8 +28,12 @@ export default function Page() {
                 continue growing in the tech industry.
               </p>
             </div>
-            <Link href="/projects" className={buttonVariants({})}>
-              View my work <ArrowRight />
+            <Link href="/projects">
+              <Button_v2 className="">
+                <div className="flex items-center justify-between">
+                  <span>View my work</span> <ArrowRight />
+                </div>
+              </Button_v2>
             </Link>
           </div>
           <a href={socialLinks.twitter} target="_blank">
