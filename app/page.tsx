@@ -15,7 +15,7 @@ export default function Page() {
         <div className="flex items-center gap-6 max-xl:flex-col-reverse">
           <div>
             <h1 className="mb-8 text-lg font-medium tracking-tight">
-              Linus Phinehas Suh Bayere – Software Engineer & DevOps Specialist
+              Linus Bayere – Software Engineer & DevOps Specialist
             </h1>
 
             <div className="prose prose-neutral dark:prose-invert">
