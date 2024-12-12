@@ -20,12 +20,7 @@ export default function Page() {
 
             <div className="prose prose-neutral dark:prose-invert">
               <p>
-                Hi, I'm Linus Phinehas Suh Bayere, a passionate Software
-                Engineer with over two years of experience in full-stack
-                development, cloud computing, and DevOps. I thrive on building
-                and deploying scalable applications that drive efficiency and
-                performance. I'm eager to contribute to impactful projects and
-                continue growing in the tech industry.
+                Hi, I am Linus. I build cool stuffs with great tools.
               </p>
             </div>
             <Link href="/projects">
